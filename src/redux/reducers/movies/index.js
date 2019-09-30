@@ -4,7 +4,7 @@ const initialState = {
 const moviesReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case 'sdssd':
-      return payload.data;
+      return [{ m: 'sdds', n: 'sdcds' }];
     default:
       return state;
   }
